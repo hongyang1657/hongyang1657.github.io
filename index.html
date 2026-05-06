@@ -1,23 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ShotMaster Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShotMaster - Support & Contact</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 600px; margin: 40px auto; padding: 0 20px; color: #333; }
-        h1 { color: #2c3e50; }
-        .contact-btn { background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        :root {
+            --primary-color: #1d1d1f;
+            --accent-color: #0071e3;
+            --text-secondary: #86868b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: var(--primary-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 90%;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            font-size: 24px;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+        }
+        .content-section {
+            background: #f5f5f7;
+            border-radius: 18px;
+            padding: 40px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+        p {
+            font-size: 17px;
+            color: #424245;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 15px;
+            font-size: 17px;
+        }
+        .contact-info strong {
+            display: inline-block;
+            width: 80px;
+        }
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: auto;
+            padding: 40px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            border-top: 1px solid #d2d2d7;
+            width: 100%;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h1>ShotMaster Support</h1>
-    <p>Welcome to the support page for ShotMaster. We are dedicated to providing the best basketball shooting analysis experience.</p>
-    
-    <h3>Contact Us</h3>
-    <p>If you have any questions, feedback, or need technical assistance, please contact us at:</p>
-    <p><strong>Email:</strong> your-email@example.com</p>
-    
-    <h3>Privacy Policy</h3>
-    <p>You can find our privacy policy here: <a href="privacy.html">Privacy Policy</a></p>
+
+    <div class="container">
+        <h1>ShotMaster</h1>
+        <div class="subtitle">AI-Powered Basketball Training Analysis</div>
+
+        <div class="content-section">
+            <h2>About the App</h2>
+            <p>ShotMaster is a professional basketball training application designed for enthusiasts. By leveraging advanced AI technology, the app provides real-time shot counting, performance tracking, and shooting posture analysis to help players improve their accuracy and skills on the court.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Support & Contact Us</h2>
+            <p>If you encounter any issues or have feedback regarding ShotMaster, please reach out to our support team:</p>
+            <ul class="contact-info">
+                <li><strong>Email:</strong> <a href="mailto:15308630310@163.com">15308630310@163.com</a></li>
+                <li><strong>Phone:</strong> +86 15308630310</li>
+                <li><strong>Hours:</strong> 07:00 am - 07:00 pm (UTC+8)</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Resources</h2>
+            <p>For information on how we handle your data, please visit our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Wuhan Arclight Technology Co., Ltd. All rights reserved.</p>
+        <p>鄂ICP备2024084733号-1</p>
+    </footer>
+
 </body>
 </html>
